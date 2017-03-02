@@ -7,8 +7,7 @@ s.author              = { 'zhihuilong' => 'zhihui.me@gmail.com' }
 s.homepage            = 'https://github.com/zhihuilong/IJKMediaFramework'
 s.source              = { :git => "https://github.com/zhihuilong/IJKMediaFramework.git", :tag => s.version.to_s }
 s.platform            = :ios, '7.0'
-s.frameworks          = "JavaScriptCore"
-s.libraries           = "icucore", "z", "stdc++"
+s.frameworks          = "VideoToolbox", "QuartzCore", "OpenGLES",  "MobileCoreServices", "MediaPlayer", "CoreVideo", "CoreMedia", "CoreGraphics", "AVFoundation", "AudioToolbox", 
+s.libraries           = "z", "bz2", 'c++'
 s.vendored_frameworks = 'IJKMediaFramework.framework'
-
 end
